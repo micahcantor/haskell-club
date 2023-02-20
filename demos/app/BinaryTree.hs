@@ -21,3 +21,7 @@ addOneTree tree = treeMap (+ 1) tree
 -- combine two binary trees into one
 combine :: BinaryTree a -> BinaryTree a -> BinaryTree a
 combine t1 t2 = undefined -- TODO: complete this definition
+
+-- find the first element in a tree that is True for a given predicate
+treeFind :: (a -> Bool) -> BinaryTree a -> Maybe a
+treeFind f tree = undefined
